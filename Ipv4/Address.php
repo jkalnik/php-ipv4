@@ -29,7 +29,7 @@ class Ipv4_Address
    * @return Ipv4_Address
    */
   static function fromLong($data) {
-    return new self((real)$data);
+      return new self((float)$data);
   }
 
   /**
